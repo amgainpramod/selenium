@@ -31,7 +31,7 @@ public class TestNG_TestSuite {
 
 	@Test
 	public void fillBasicInfo() throws Exception {
-		System.out.println("This is a test on Chrome")
+		System.out.println("This is a test on Chrome");
 	}
 
 	@AfterClass
