@@ -31,11 +31,7 @@ public class TestNG_TestSuite {
 
 	@Test
 	public void fillBasicInfo() throws Exception {
-		SearchPage.navigateToFlightsTab(driver);
-		SearchPage.fillOriginTextBox(driver, "New York");
-		SearchPage.fillDestinationTextBox(driver, "Chicago");
-		SearchPage.fillDepartureDateTextBox(driver, "12/25/2015");
-		SearchPage.fillReturnDateTextBox(driver, "12/31/2015");
+		System.out.println("This is a test on Chrome")
 	}
 
 	@AfterClass
